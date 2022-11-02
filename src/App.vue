@@ -1,15 +1,14 @@
 <script setup>
-import { RouterLink, RouterView } from "vue-router";
+  import HomeView from "./views/HomeView.vue";
+  import MenuList from "./components/MenuList.vue";
 </script>
 
 <template>
   <div>
-    <nav>
-      <RouterLink to="/" class="text-4xl font-bold text-center">L'estanquette</RouterLink>
-    </nav>
+    <h1 class="text-4xl font-bold text-center py-5">L'estanquette</h1>
+    <MenuList />
+    <HomeView />
   </div>
-
-  <RouterView />
 </template>
 
 <style scoped>
