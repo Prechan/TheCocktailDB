@@ -7,7 +7,7 @@ import MenuList from "./components/MenuList.vue";
   <div>
     <h1 class="text-4xl font-bold text-center py-5">L'estanquette</h1>
     <MenuList />
-    <HomeView />
+    <HomeView title="Retrouvez nos trois suggestions du jour" />
   </div>
 </template>
 
