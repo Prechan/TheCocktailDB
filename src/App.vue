@@ -1,6 +1,6 @@
 <script setup>
-  import HomeView from "./views/HomeView.vue";
-  import MenuList from "./components/MenuList.vue";
+import HomeView from "./views/HomeView.vue";
+import MenuList from "./components/MenuList.vue";
 </script>
 
 <template>
@@ -11,5 +11,4 @@
   </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>
